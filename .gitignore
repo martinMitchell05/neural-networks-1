@@ -1,0 +1,10 @@
+.venv/*
+*.pdf
+*.csv
+*.zip
+*.tar.gz
+*.txt
+
+*__pycache__/
+.vscode/
+
