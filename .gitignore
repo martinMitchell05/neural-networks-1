@@ -7,4 +7,4 @@
 
 *__pycache__/
 .vscode/
-
+*__init__.py
