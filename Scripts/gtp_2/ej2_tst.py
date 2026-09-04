@@ -83,9 +83,9 @@ for n in range(len(entradas)):
         ax.scatter(x1_val, x2_val, edgecolors='r', facecolors='None', marker='s', s=40)
         aciertos += 1  
     elif prediccion > 0 and yd[n] < 0:
-        ax.scatter(x1_val, x2_val, c='k', marker='x', s=40)
+        ax.scatter(x1_val, x2_val, c='g', marker='x', s=40)
     elif prediccion < 0 and yd[n] > 0:
-        ax.scatter(x1_val, x2_val, edgecolors='r', facecolors='None', marker='s', s=40)
+        ax.scatter(x1_val, x2_val, edgecolors='g', facecolors='None', marker='s', s=40)
 
 plt.ioff()
 plt.show()
